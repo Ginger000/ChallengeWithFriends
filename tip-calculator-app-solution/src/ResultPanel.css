@@ -1,0 +1,46 @@
+.ResultPanel{
+    background: hsl(183, 100%, 15%);
+    color:hsl(172, 86%, 83%);
+    font-family: 'Space Mono', monospace;
+    width: 380px;
+    height:430px;
+    border-radius: 20px;
+    padding: 2rem 3rem 0 3rem;
+    padding-top:2rem;
+    margin-top: 2.5rem;
+    margin-right: 1rem;
+}
+
+.ResultPanel-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 110px;
+}
+
+.ResultPanel-label{
+    display: inline-block;
+}
+.ResultPanel-value{
+    display: inline-block;
+}
+
+.label-highlight{
+    color: white;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+h1.result-value{
+    font-size: 3rem;
+}
+
+button.reset{
+    width: 380px;
+    height:60px;
+    font-size: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    border-radius: 5px;
+    margin-top: 7rem;
+
+}

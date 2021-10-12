@@ -4,7 +4,8 @@ import Calculator from './Calculator';
 function App() {
   
   return (
-    <div>
+    <div className="App">
+      <h1 className="App-headline">SPLI <br /> TTER</h1>
       <Calculator/>
     </div>
   );

@@ -1,6 +1,6 @@
 import React, {useState, Component } from 'react';
 import CustomTipForm from './CustomTipForm';
-
+import "./buttonPa.css"
 
 function ButtonPa ({addTip}){
         // console.log(props);
@@ -16,11 +16,11 @@ function ButtonPa ({addTip}){
             //     // setSelectedIdx(null);
             // }    
             return(
-                <div>
+                <div className="ButtonPanel">
                     {tips.map((t, idx)=>(
                         <button
                             key={idx}
-                            className={`button ${selectedIdx === idx ? "toggled" : ""}`}
+                            className={`button-size button ${selectedIdx === idx ? "toggled" : ""}`}
                             onClick={()=>{
                                 setSelectedIdx(idx);
                                 // this.props.addTip(t.tip);
@@ -39,6 +39,7 @@ function ButtonPa ({addTip}){
         return(
             <div>
                 {/* {Buttons} */}
+                <label htmlFor="">Select Tip %</label>
                 <Buttons addTip={addTip}/>
             </div>
         )

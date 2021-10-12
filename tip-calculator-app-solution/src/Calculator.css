@@ -1,4 +1,38 @@
-.button.toggled{
-    background:yellow;
-    color: black;
+
+
+.Calculator{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 550px;
+    background: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0px 20px 20px 0px hsla(186, 14%, 43%, 0.2);
+}
+
+label{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Space Mono', monospace;
+    color: hsl(183, 100%, 15%)
+}
+.InputComp{
+    margin-bottom: 1rem;
+}
+
+.Calculator-input{
+    display: inline-block;
+    width: 500px;
+    height: 500px;
+    /* padding: 1rem; */
+    padding-top:3rem;
+    margin-right: 1rem;
+}
+
+.Calculator-output{
+    display: inline-block;
+    width: 450px;
+    height: 500px;
+    
+    /* margin-left:1rem; */
 }
