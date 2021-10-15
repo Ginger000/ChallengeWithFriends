@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ChallengeWithFriends/tip-calculator-app-solution/static/css/main.80d3f285.chunk.css",
-    "main.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/main.8c484c21.chunk.js",
-    "main.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/main.8c484c21.chunk.js.map",
-    "runtime-main.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/runtime-main.477bb0c6.js",
-    "runtime-main.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/runtime-main.477bb0c6.js.map",
-    "static/js/2.464d7d57.chunk.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/2.464d7d57.chunk.js",
-    "static/js/2.464d7d57.chunk.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/2.464d7d57.chunk.js.map",
-    "static/js/3.5b8859e8.chunk.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/3.5b8859e8.chunk.js",
-    "static/js/3.5b8859e8.chunk.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/3.5b8859e8.chunk.js.map",
+    "main.css": "/ChallengeWithFriends/tip-calculator-app-solution/static/css/main.45660dbf.chunk.css",
+    "main.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/main.2dc8249c.chunk.js",
+    "main.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/main.2dc8249c.chunk.js.map",
+    "runtime-main.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/runtime-main.60b75572.js",
+    "runtime-main.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/runtime-main.60b75572.js.map",
+    "static/js/2.c3228b20.chunk.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/2.c3228b20.chunk.js",
+    "static/js/2.c3228b20.chunk.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/2.c3228b20.chunk.js.map",
+    "static/js/3.9abd3329.chunk.js": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/3.9abd3329.chunk.js",
+    "static/js/3.9abd3329.chunk.js.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/3.9abd3329.chunk.js.map",
     "index.html": "/ChallengeWithFriends/tip-calculator-app-solution/index.html",
-    "static/css/main.80d3f285.chunk.css.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/css/main.80d3f285.chunk.css.map",
-    "static/js/2.464d7d57.chunk.js.LICENSE.txt": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/2.464d7d57.chunk.js.LICENSE.txt"
+    "static/css/main.45660dbf.chunk.css.map": "/ChallengeWithFriends/tip-calculator-app-solution/static/css/main.45660dbf.chunk.css.map",
+    "static/js/2.c3228b20.chunk.js.LICENSE.txt": "/ChallengeWithFriends/tip-calculator-app-solution/static/js/2.c3228b20.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.477bb0c6.js",
-    "static/js/2.464d7d57.chunk.js",
-    "static/css/main.80d3f285.chunk.css",
-    "static/js/main.8c484c21.chunk.js"
+    "static/js/runtime-main.60b75572.js",
+    "static/js/2.c3228b20.chunk.js",
+    "static/css/main.45660dbf.chunk.css",
+    "static/js/main.2dc8249c.chunk.js"
   ]
 }
