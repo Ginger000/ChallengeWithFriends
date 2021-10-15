@@ -39,8 +39,27 @@ button.reset{
     width: 380px;
     height:60px;
     font-size: 1.5rem;
+    font-weight: 700;
     font-family: 'Space Mono', monospace;
     border-radius: 5px;
     margin-top: 7rem;
+    color: hsl(183, 100%, 15%);
+    background:hsl(172, 86%, 83%);
+    transition: background 200ms ease-in-out;
+}
 
+button.reset:active{
+    background-color: hsl(172, 86%, 40%);
+}
+
+button:hover{
+    cursor:pointer;
+}
+
+@media (max-width:700px) {
+    button.reset{
+        
+        margin-top: 3rem;
+        
+    }
 }

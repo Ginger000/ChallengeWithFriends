@@ -1,53 +1,33 @@
-import React, { useState } from 'react';
-import BillForm from './BillForm';
-import './Calculator.css';
-import PeopleForm from './PeopleForm';
-import ResultPanel from './ResultPanel';
-import ButtonPanel from './buttonPanel';
-import CustomTipForm from './CustomTipForm';
-import ButtonPa from './buttonPa';
+import React, { useState } from "react";
+import BillForm from "./BillForm";
+import "./Calculator.css";
+import PeopleForm from "./PeopleForm";
+import ResultPanel from "./ResultPanel";
+import Buttons from "./Buttons";
 
-function Calculator (){
-    const [bill, setBill] = useState(0);
-    const [people, setPeople] = useState(0);
-    const [tip, setTip] = useState(0);
-    const addBill = newBill => {
-        setBill(newBill);
-    }
-    const addPeople = newPeople => {
-        setPeople(newPeople);
-    }
-    
-    const addTip = newTip =>{
-        setTip(newTip);
-    }
-    
-    return(
+function Calculator() {
+    return (
         <div className="Calculator">
-            
             <div className="Calculator-input">
                 <div className="InputComp">
                     <label htmlFor="bill">Bill</label>
-                    <BillForm name="bill" id="bill" addBill={addBill}/>
+                    <BillForm />
+                </div>
+                <div className="InputComp middle-button">
+                    <label htmlFor="bill">Select Tip %</label>
+                    <Buttons />
                 </div>
                 <div className="InputComp">
                     <label htmlFor="people">Number of People</label>
-                    <PeopleForm name='people' id="people" addPeople={addPeople} />
+                    <PeopleForm/>
                 </div>
-                <div className="InputComp">
-                    <ButtonPa addTip={addTip}/>
-                    {/* <ButtonPanel addTip={addTip}/> */}
-                    <label htmlFor="customTip">Custom Tip %</label>
-                    <CustomTipForm id="customTip" addTip={addTip}/>
-                </div>
+              
             </div>
             <div className="Calculator-output">
-                
-                <ResultPanel  bill={bill} people={people} tip={tip}/>
+                <ResultPanel />
             </div>
         </div>
-    )
-
+    );
 }
 
 export default Calculator;
