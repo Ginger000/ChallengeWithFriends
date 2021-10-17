@@ -3,6 +3,7 @@ import "./BillForm.css";
 import { BillContext } from './Contexts/BillContext';
 
 function BillForm(props){
+    
     const {bill, handleBillChange, resetBill} = useContext(BillContext);
     return(
         <div className="InputForm">
