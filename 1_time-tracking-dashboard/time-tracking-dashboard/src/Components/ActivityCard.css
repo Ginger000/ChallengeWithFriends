@@ -1,0 +1,72 @@
+.ActivityCard{
+    height: 200px;
+    width:95%;
+    min-width: 160px;
+    border-radius: 15px;
+    color:white;
+    
+    /* background-image: url("../images/icon-study.svg"); */
+    /* background: hsl(195, 74%, 62%); */
+    background-position:  bottom 50px right 100px;
+    display: flex;
+    align-items: flex-end;
+    font-family: 'Rubik', sans-serif;
+
+    /* margin-top: 1rem; */
+}
+
+.ActivityCard-display{
+    height:160px;
+    width:100%;
+    border-radius: 15px;
+    background: hsl(235, 46%, 20%);
+    padding: 1.5rem;
+}
+
+.ActivityCard-display:hover{
+    background: hsl(236, 44%, 35%);
+}
+
+.titleBar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleBar .activityTitle{
+    font-size: 18px;
+}
+
+.currentTime{
+    font-size: 3rem;
+    font-weight: 400;
+}
+
+.previousTime{
+    font-size: 0.8rem;
+    color:hsl(236, 100%, 87%)
+}
+
+@media (max-width: 768px) {
+    .ActivityCard{
+        height: 150px;
+        width:90%;
+        min-width: none;
+        /* display: flex;
+        justify-content: center; */
+        margin: 0.5rem 0;
+    }
+    .ActivityCard-display{
+        height:120px;
+    }
+    .times{
+        display: flex;
+        justify-content: space-between;
+    }
+    .previousTime{
+        display: flex;
+        align-self: center;
+    }
+    .currentTime{
+        font-size: 2rem;
+    }
+}

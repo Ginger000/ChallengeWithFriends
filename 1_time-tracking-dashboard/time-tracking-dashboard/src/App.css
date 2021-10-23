@@ -1,0 +1,28 @@
+.App {
+  height: 100vh;
+  background: hsl(226, 43%, 10%);
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  width: 1000px !important;
+  /* background: rgba(210, 67, 67, 0.3); */
+}
+
+.row.lower{
+  margin-top:30px;
+}
+
+@media (max-width: 768px){
+  .App {
+    height: auto;
+  }
+  .row .centerMobile{
+    display: flex;
+    justify-content: center;
+  }
+  .row.lower{
+    margin-top:0;
+  }
+}

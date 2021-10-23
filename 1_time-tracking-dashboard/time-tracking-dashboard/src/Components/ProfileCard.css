@@ -1,0 +1,92 @@
+.ProfileCard{
+    width: 95%;
+    min-width: 160px;
+    height: 430px;
+    background: hsl(235, 46%, 20%);
+    border-radius: 15px;
+    color:white;
+    font-family: 'Rubik', sans-serif;
+}
+
+.ProfileCard-upperCard{
+    width: 100%;
+    height: 280px;
+    background: hsl(246, 80%, 60%);
+    border-radius: 15px;
+    line-height:normal;
+    padding-left:2rem;
+    padding-top: 2rem;
+}
+
+.ProfileCard-upperCard img{
+    width:70px;
+    height: 70px;
+    border: 2px solid white;
+    border-radius: 35px;
+    margin-bottom: 3rem;
+}
+
+.ProfileCard-upperCard .small{
+    font-size: 0.8rem;
+}
+
+.ProfileCard-upperCard .large{
+    font-size:2rem;
+}
+
+.Buttons{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+label{
+    color:rgba(255, 255, 255, 0.5);
+
+}
+
+input[type='radio'][name='buttons'] { display:none; }
+input[type='radio'][name='buttons']:checked + label{
+    color:white;
+}
+input[type='radio'][name='buttons']:hover + label{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+
+@media (max-width: 768px){
+    .ProfileCard{
+        width: 90%;
+        min-width: none;
+        height:200px
+    }
+    .ProfileCard-upperCard{
+        height: 140px;
+        display:flex;
+        justify-content: space-around;
+        align-items: center;
+        padding-left:0;
+        padding-top: 0;
+        padding: 0 1.5rem;
+    }
+    .ProfileCard-upperCard img{
+        width:60px;
+        height: 60px;
+        margin-bottom: 0;
+    }
+    .ProfileCard-upperCard .large{
+        font-size:1.5rem;
+    }
+    .Buttons{
+        margin-left: 2rem;
+        margin-top: 1.2rem;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+}
