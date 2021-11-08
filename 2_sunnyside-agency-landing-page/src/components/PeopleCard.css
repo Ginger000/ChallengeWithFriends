@@ -1,0 +1,64 @@
+.People {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-bottom: 4rem;
+  margin: 2rem 2rem;
+}
+
+@media (max-width: 762px) {
+  .People {
+    margin: 2rem 0;
+  }
+}
+
+.People .profileImg {
+  border-radius: 50%;
+  display: inline-block;
+  overflow: hidden;
+  margin: 2rem 0;
+}
+
+.People .profileImg img {
+  width: 100px;
+  height: 100px;
+}
+
+.People p {
+  font-family: "Barlow", sans-serif;
+  margin: 1rem 0;
+  color: #575757;
+  text-align: center;
+  width: 70%;
+}
+
+@media (max-width: 762px) {
+  .People p {
+    width: 100%;
+  }
+}
+
+.People .name {
+  font-family: "Fraunces", serif;
+  font-weight: 800;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.People .job {
+  font-family: "Barlow", sans-serif;
+  font-size: 0.7rem;
+  font-weight: 300;
+  color: #727272;
+}
+/*# sourceMappingURL=PeopleCard.css.map */

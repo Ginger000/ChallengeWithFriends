@@ -1,0 +1,51 @@
+@import '_base';
+
+.Description-Image-card {
+    height: 100%;
+    width: 100%;
+    // padding-bottom: 100%;
+    @media (max-width: 762px) {
+        padding-bottom: 0;
+        height: 500px;
+        width: auto;
+    }
+
+    display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        img {
+            min-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+        }
+
+    .positionWrapper {
+        position:absolute;
+        padding-top: 30% ;
+        padding-bottom: 5%;
+        margin:0 10%;
+        @media (max-width: 762px){
+            padding-top: 80% ;
+        }
+        text-align: center;
+        .title {
+            font-family: $font-serif;
+            font-weight: 600;
+            color: rgb(69, 69, 69);
+        }
+        .content {
+            font-family: $font-san-serif;
+            color: rgb(69, 69, 69);
+            margin: 2rem 0;
+            font-size: 0.9rem;
+        }
+    }
+    
+    img{
+        // position:absolute;
+        z-index: -99;
+    }
+
+    
+}

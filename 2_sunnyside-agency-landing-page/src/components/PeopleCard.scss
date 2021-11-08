@@ -1,0 +1,47 @@
+@import '_base';
+
+.People{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+    margin: 2rem 2rem;
+    @media (max-width: 762px){
+        margin:2rem 0;
+    }
+    .profileImg{
+        border-radius: 50%;
+        display: inline-block;
+        overflow: hidden;
+        margin: 2rem 0;
+        img{
+            width: 100px;
+            height: 100px;
+        }
+    }
+
+    p{
+        font-family:$font-san-serif;
+        margin: 1rem 0;
+        color:rgb(87, 87, 87);
+        text-align: center;
+        width: 70%;
+        @media (max-width: 762px){
+            width: 100%;
+        }
+    }
+    .name{
+        font-family: $font-serif;
+        font-weight: 800;
+        margin-top: 2rem;
+        margin-bottom: 0.5rem;
+    }
+    .job{
+        font-family: $font-san-serif;
+        font-size: 0.7rem;
+        font-weight: 300;
+        color:rgb(114, 114, 114);
+        
+    }
+}

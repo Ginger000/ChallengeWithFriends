@@ -1,0 +1,249 @@
+@import '_base';
+.container-fluid {
+    // padding-left: 0 !important;
+    // padding-right: 0 !important;
+    .row {
+        div {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+        }
+    }
+    nav {
+        right: 0px;
+    }
+    .navbar {
+        margin-top: 2rem;
+        @media (max-width: 762px){
+            margin-top: 0;
+        }
+        position: absolute;
+        width: 100%;
+        background: transparent;
+        .container-fluid {
+            margin-left: 2rem;
+            margin-right: 2rem;
+            @media (max-width: 762px) {
+                margin-left: 0rem;
+                margin-right: 0rem;
+            }
+            .navbar-brand {
+                font-size: 1.5rem;
+                color: white;
+                font-weight: 800;
+                font-family: $font-san-serif;
+            }
+            .navbar-nav {
+                font-family: $font-san-serif;
+                @media (max-width: 762px) {
+                    text-align: center;
+                    background: white;
+
+                    margin-top: 30px;
+                    ::before {
+                        content: '';
+                        width: 0;
+                        height: 0;
+                        border-top: 30px solid transparent;
+                        border-right: 30px solid white;
+                        position: absolute;
+                        right: 12px;
+                        top: 60px;
+                    }
+                    padding: 1rem 0;
+                    #contact {
+                        font-family: $font-serif;
+                        font-weight: 700;
+                        background: rgb(255, 217, 0);
+                        width: 150px;
+                        height: 60px;
+                        border-radius: 30px;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        color: black;
+                    }
+                    a#contact {
+                        margin: auto;
+                    }
+                }
+
+                .nav-link {
+                    color: white;
+                    margin: 0 1rem;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    @media (max-width: 762px) {
+                        color: rgb(125, 125, 125);
+                        margin: 0.5rem 0;
+                    }
+                }
+
+                #contact {
+                    font-family: $font-serif;
+                    font-weight: 700;
+                    padding-left: 2rem;
+                    padding-right: 2rem;
+                    &:hover{
+                        background: rgba(255,255,255,0.2);
+                        border-radius: 20px;
+                        
+                    }
+                }
+            }
+        }
+    }
+}
+.Hero {
+    // background: aquamarine;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    img {
+        width: 100%;
+        z-index: 0;
+    }
+    .Wrapper-2 {
+        
+        position: absolute;
+        margin-top: 10%;
+        padding-top: 15%;
+        @media (max-width: 762px){
+            margin-top: 20%;
+            padding-top: 20%;
+            z-index: -10;
+        }
+        width: 100%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        h1 {
+            position: absolute;
+            font-family: $font-serif;
+            font-weight: 800;
+            color: white;
+            letter-spacing: 4px;
+        }
+        svg{
+            margin-top: 5%;
+            @media (max-width: 762px){
+                margin-top: 30%;
+            }
+        }
+    }
+
+    @media (max-width: 762px) {
+        .Wrapper {
+            // width: 100%;
+            overflow: hidden;
+            img {
+                // https://stackoverflow.com/questions/19673895/center-a-large-image-of-unknown-size-inside-a-smaller-div-with-overflow-hidden
+                position: relative;
+                left: 50%;
+                top: 50%;
+                -webkit-transform: translateX(-50%);
+                object-fit: cover;
+                height: 400px;
+                z-index: -199;
+            }
+        }
+    }
+}
+
+.Image-card {
+    //https://stackoverflow.com/questions/14142378/how-can-i-fill-a-div-with-an-image-while-keeping-it-proportional
+    background: burlywood;
+    .Wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        img {
+            min-height: 100%;
+            min-width: 100%;
+            object-fit: cover;
+        }
+    }
+}
+
+.Client-testimonial {
+    text-align: center;
+    font-family: $font-serif;
+    color: rgb(150, 150, 150);
+    letter-spacing: 5px;
+    font-size: 1.5rem;
+    padding-top: 9rem;
+}
+.People-panel {
+    padding: 1rem 5rem;
+    @media (max-width: 762px) {
+        padding: 1rem 2rem;
+    }
+}
+.Gallery-card {
+    img {
+        max-width: 100%;
+        height: auto;
+        @media (max-width: 762px) {
+            position: relative;
+            bottom:40px
+        }
+        
+    }
+    @media (max-width: 762px) {
+        position: relative;
+        width: 50%;
+        height: 0;
+        padding-bottom: 50%;
+        overflow: hidden;
+        
+    }
+
+    
+}
+
+.Footer {
+    color:hsl(169, 33%, 25%);
+    background: hsl(168, 58%, 56%);
+    font-family: $font-san-serif;
+    
+    text-align:center;
+    h1{
+        
+                
+                font-weight: 800;
+                
+                margin: 4rem 0 2rem 0;
+    }
+    .linkGroup{
+        a{  
+            
+            margin: 0 2rem;
+            color:hsl(169, 31%, 28%);
+            text-decoration: none;
+            &:hover{
+                color: white;
+            }
+            @media (max-width: 762px){
+                margin: 0 1rem;
+            }
+        }
+    }
+    .icons{
+        margin: 5rem 0 3rem 0;
+        a{
+            text-decoration: none; 
+        }
+        svg{
+            margin: 0 1rem;
+            &:hover path{
+                fill: white;
+            }
+            @media (max-width: 762px){
+                margin: 0 0.5rem;
+            }
+        }
+        
+    }
+}

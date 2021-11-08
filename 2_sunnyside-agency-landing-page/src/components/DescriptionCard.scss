@@ -1,0 +1,45 @@
+//make a responsive square div
+//https://stackoverflow.com/questions/44619678/responsive-square-divs-cross-browser-compatible
+@import '_base';
+.Description {
+    height: 0;
+    width: 100%;
+    padding-bottom: 100%;
+    @media (max-width: 762px) {
+        padding-bottom: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    .position {
+        padding: 25% 0;
+        margin: 0 15%;
+        @media (max-width: 900px) {
+            padding: 10% 0;
+        }
+        @media (max-width: 762px) {
+            padding: 20% 0;
+            margin: 0 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+    }
+    .title {
+        font-family: $font-serif;
+        font-weight: 600;
+    }
+    .content {
+        font-family: $font-san-serif;
+        color: rgb(121, 121, 121);
+        margin: 2rem 0;
+    }
+    button {
+        font-family: $font-serif;
+        padding: 0 0.2rem;
+        border: none;
+        background: none;
+    }
+
+}
